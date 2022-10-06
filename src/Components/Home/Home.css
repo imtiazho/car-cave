@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.home-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+}
+.left-side-top-home{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-side-top-home h1{
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 9px;
+}
+.left-side-top-home span{
+    color: rgb(255, 153, 0);
+}
+.left-side-top-home p {
+    width: 90%;
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 26px;
+    color: #3e3e3e;
+    margin-bottom: 1rem;
+}
+.right-side-top-home img{
+    max-width: 100%;
+}
+.learnmore-btn{
+    width: 25%;
+    border: none;
+    padding: 15px 25px;
+    background: rgb(255, 153, 0);
+    color: #fff;
+    cursor: pointer;
+}

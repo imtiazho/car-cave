@@ -9,7 +9,7 @@ import About from './Components/About/About';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
       </Routes>
-    </div>
+    </>
   );
 }
 
