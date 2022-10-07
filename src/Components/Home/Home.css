@@ -1,14 +1,17 @@
 *{
     box-sizing: border-box;
 }
+.home-container{
+    width: 90%;
+    margin: 0 auto;
+}
 .home-page{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
-    width: 90%;
-    margin: 0 auto;
     height: 90vh;
+    margin-bottom: 2rem;
 }
 .left-side-top-home{
     display: flex;
@@ -41,4 +44,20 @@
     background: rgb(255, 153, 0);
     color: #fff;
     cursor: pointer;
+}
+.home-review h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+.review-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.see-review{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
 }

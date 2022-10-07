@@ -12,7 +12,7 @@ const Navbar = () => {
                 <h2>CarCave</h2>
 
                 <div className='nav-items'>
-                    <CustomLink to='/home' className='nav-item'>Home</CustomLink>
+                    <CustomLink to='/' className='nav-item'>Home</CustomLink>
                     <CustomLink to='/review' className='nav-item'>Review</CustomLink>
                     <CustomLink to='/dashBoard' className='nav-item'>Dash Board</CustomLink>
                     <CustomLink to='/blogs' className='nav-item'>Blogs</CustomLink>
