@@ -1,0 +1,11 @@
+.notfound-container{
+    height: 80vh;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.notfound-container img{
+    width: 40%;
+}

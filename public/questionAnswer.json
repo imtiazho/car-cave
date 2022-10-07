@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is Context Api?",
+        "answer": "The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to prop drilling or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux. \nContext API is a (kind of) new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease."
+    },
+    {
+        "question": "What is Semantic Tag?",
+        "answer": "Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. \nElements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them."
+    },
+    {
+        "question": "What is difference between inline block & block elements?",
+        "answer": "Block Elements occupy the full width irrespective of their sufficiency. Inline elements don't start in a new line. Block elements always start in a line. Inline elements allow other inline elements to sit behind."
+    }
+]
